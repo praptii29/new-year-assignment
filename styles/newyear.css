@@ -8,7 +8,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
-    height: 100vh;
+    height: 110vh;
 }
 
 .banner-content {
@@ -120,13 +120,13 @@ li::marker {
 }
 
 .positive {
-
     width: 459px;
     height: 94px;
     font-weight: 700;
     font-size: 40px;
     color: #FFFFFF;
-    padding: 250px;
+    padding: 50px;
+
 
 }
 
@@ -140,20 +140,20 @@ li::marker {
 .watch-div {
     width: 1140px;
     height: 300px;
-    background-image: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url(/images/watch.png)
+    background-image: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url(/images/watch.png);
+    border-radius: 5px;
 }
 
 .call-btn {
-
     width: 160px;
     height: 64px;
     border-radius: 5px;
     color: #F15B22;
     background-color: #FFFFFF;
-    margin: 376px 256px;
     border: none;
     font-weight: 600;
     font-size: 20px;
+    margin-left: 47px;
 
 }
 
