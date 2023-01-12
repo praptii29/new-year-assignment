@@ -3,13 +3,23 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-.main-title {
-    position: absolute;
-    width: 525px;
-    height: 228px;
-    left: 845px;
-    top: 216px;
+.banner {
+    background-image: url(/images/banner/banner1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    height: 100vh;
+}
 
+.banner-content {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 50px;
+}
+
+.main-title {
     font-family: 'Work Sans';
     font-style: normal;
     font-weight: 700;
@@ -21,11 +31,6 @@
 }
 
 .main-paragraph {
-    position: absolute;
-    width: 494px;
-    height: 78px;
-    left: 876px;
-    top: 468px;
 
     font-family: 'Work Sans';
     font-style: normal;
@@ -37,17 +42,15 @@
 }
 
 .contact-btn {
-    position: absolute;
-    width: 160px;
-    height: 64px;
-    left: 1210px;
-    top: 578px;
+
     background-color: #F15B22;
     font-weight: 600;
     font-size: 20px;
     color: #FFFFFF;
     border: none;
-    border-radius: 5px;
+    border-radius: 4px;
+    padding: 15px;
+    margin-left: 100px 100px;
 
 }
 
@@ -60,6 +63,7 @@ li::marker {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 50px;
 }
 
 .secondary-title {
@@ -94,7 +98,6 @@ li::marker {
     font-weight: 700;
     font-size: 40px;
     color: #151414;
-    margin-left: 650px;
     margin-top: 30px;
     margin-bottom: 30px;
 }
@@ -105,8 +108,19 @@ li::marker {
     justify-content: space-around;
 }
 
+.plan-section {
+    text-align: center;
+
+}
+
+.watch-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
 .positive {
-    position: absolute;
+
     width: 459px;
     height: 94px;
     font-weight: 700;
@@ -117,14 +131,20 @@ li::marker {
 }
 
 .watch {
-    position: absolute;
+
     text-align: center;
     margin-left: 200px;
     margin-top: 200px;
 }
 
+.watch-div {
+    width: 1140px;
+    height: 300px;
+    background-image: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url(/images/watch.png)
+}
+
 .call-btn {
-    position: absolute;
+
     width: 160px;
     height: 64px;
     border-radius: 5px;
@@ -135,4 +155,54 @@ li::marker {
     font-weight: 600;
     font-size: 20px;
 
+}
+
+.future {
+    position: absolute;
+    font-weight: 700;
+    font-size: 45px;
+    margin: 686px 204px;
+
+
+}
+
+.future-para {
+    position: absolute;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 750px 203px;
+    max-width: 400px;
+
+}
+
+.foot-bg {
+    background-color: #F15B22
+}
+
+.future-email {
+    position: absolute;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 873px 205px;
+}
+
+.future-phone {
+    display: flex;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 910px 205px;
+}
+
+.black {
+    background-color: #151414;
+    width: 700px;
+    height: 500px;
+    padding: 50px;
+    margin: 300px;
+}
+
+.footer-container {
+    min-width: 100%;
+    background-color: #151414;
+    min-height: 50%;
 }
